@@ -78,6 +78,7 @@ class Reducer {
   size_t next_bucket_;
 
   bool has_marked_unused_parameters_;
+  bool find_unused_parameters_;
   std::vector<VariableIndex> unused_parameters_;
   // Locally used parameter maps indicating if parameters are used locally
   // during the current iteration or no_sync session if no_sync is on. One
